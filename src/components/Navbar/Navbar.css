@@ -1,0 +1,42 @@
+.Navbar {
+  width: 100%;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  /* background-color: aqua; */
+  gap: 50px;
+}
+.Navbar .logo {
+  color: rgb(244, 44, 55);
+  font-size: 30px;
+  font-weight: 500;
+}
+.Navbar .links {
+  flex: 1;
+}
+.Navbar .links ul {
+  display: flex;
+  gap: 20px;
+}
+
+.Navbar .links ul li {
+  color: rgb(107, 114, 128);
+  font-weight: 600;
+  font-size: 16px;
+}
+.Navbar .features {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.Navbar .features button {
+  width: 70px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  color: white;
+  background-color: rgb(244, 44, 55);
+}
