@@ -1,0 +1,33 @@
+.Sale-Container {
+  width: 100%;
+  height: 340px;
+  background-color: #f42c37;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  color: white;
+  border-radius: 10px;
+  margin: 100px 0;
+}
+.Sale-Container .container-img img {
+  height: 340px;
+  transform: scale(1.4);
+}
+.Sale-Container .container-left {
+  padding-left: 20px;
+}
+.Sale-Container .container-left p,
+.Sale-Container .container-right p {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.Sale-Container .container-left h1,
+.Sale-Container .container-right h1 {
+  font-weight: 600;
+  font-size: 60px;
+  padding: 20px 0;
+}
+.Sale-Container button {
+  margin-top: 20px;
+}

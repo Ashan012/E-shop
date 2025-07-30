@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import { assets } from "../../assets/assets";
+import Button from "../Button/Button";
 
 const Hero = () => {
   return (
@@ -9,7 +10,7 @@ const Hero = () => {
         <h3>Beats Solo</h3>
         <h2> Wireless</h2>
         <h1>HEADPHONE</h1>
-        <button>Shop by Category</button>
+        <Button text={"Shop By Category"} />
       </div>
       <div className="hero-right">
         <img src={assets.headphone} alt="" />

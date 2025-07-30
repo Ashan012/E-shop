@@ -1,7 +1,17 @@
 .btn {
+  width: fit-content;
+  padding: 12px 20px;
   border: none;
   outline: none;
   border-radius: 50px;
+  background-color: #f42c37;
   color: white;
-  background-color: rgb(244, 44, 55);
+  font-size: 16px;
+}
+
+@media (max-width: 480px) {
+  .btn {
+    padding: 12px 10px;
+    font-size: 12px;
+  }
 }

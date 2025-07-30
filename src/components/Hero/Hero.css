@@ -22,15 +22,7 @@
   font-size: 150px;
   color: white;
 }
-.hero-left button {
-  width: 170px;
-  height: 35px;
-  background-color: rgb(244, 44, 55);
-  color: white;
-  border: none;
-  outline: none;
-  border-radius: 50px;
-}
+
 .hero-right {
   position: absolute;
   right: 0;

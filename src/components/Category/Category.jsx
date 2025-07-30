@@ -2,6 +2,7 @@ import React from "react";
 import "./Category.css";
 import { assets } from "../../assets/assets";
 import { category } from "../../assets/assets";
+import Button from "../Button/Button";
 
 const Category = () => {
   return (
@@ -17,7 +18,7 @@ const Category = () => {
               <p className="p-1">Enjoy</p>
               <p className="p-2"> With</p>
               <p className="p-3">{item.name}</p>
-              <button>Browse</button>
+              <Button text={"Browse"} color={item.color} bg={"white"} />
             </div>
             <div className="category-right">
               <img src={item.img} alt="" />

@@ -1,6 +1,7 @@
 import React from "react";
 import { assets } from "../../assets/assets";
 import "./Navbar.css";
+import Button from "../Button/Button";
 
 const Navbar = () => {
   return (
@@ -15,9 +16,9 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="features">
-        <img src={assets.basket} alt="" />
         <img src={assets.search} alt="" />
-        <button>SignUp</button>
+        <img src={assets.basket} alt="" />
+        <Button text={"SignUp"} />
       </div>
     </div>
   );
