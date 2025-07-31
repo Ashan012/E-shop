@@ -23,7 +23,7 @@
 .Navbar .links ul li {
   color: rgb(107, 114, 128);
   font-weight: 600;
-  font-size: 16px;
+  font-size: 20px;
 }
 .Navbar .features {
   display: flex;
@@ -49,5 +49,10 @@
   }
   .Navbar {
     gap: 0;
+  }
+}
+@media (max-width: 300px) {
+  .Navbar .features {
+    gap: 10px;
   }
 }

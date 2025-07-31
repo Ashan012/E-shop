@@ -1,5 +1,5 @@
 import React from "react";
-import { assets } from "../../assets/assets";
+import { assetsImg } from "../../assets/assets";
 import "./Navbar.css";
 import Button from "../Button/Button";
 
@@ -16,8 +16,8 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="features">
-        <img src={assets.search} alt="" />
-        <img src={assets.basket} alt="" />
+        <img src={assetsImg.search} alt="" />
+        <img src={assetsImg.basket} alt="" />
         <Button text={"SignUp"} />
       </div>
     </div>

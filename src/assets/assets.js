@@ -17,54 +17,79 @@ import p7 from "../assets/product/p-7.jpg";
 // import p8 from "../assets/product/p-8.jpg";
 import p9 from "../assets/product/p-9.jpg";
 import smartWatch from "../assets/category/smartwatch2-removebg-preview.png";
+import br1 from "../assets/brand/br-1.png";
+import br2 from "../assets/brand/br-2.png";
+import br3 from "../assets/brand/br-3.png";
+import br4 from "../assets/brand/br-4.png";
+import br5 from "../assets/brand/br-5.png";
+import facebook from "../assets/icon/facebook.png";
+import linkedin from "../assets/icon/linkedin.png";
+import twitter from "../assets/icon/twitter.png";
 
-export const assets = {
+export const assetsImg = {
   basket,
   search,
   headphone,
   earphone,
   smartWatch,
+  facebook,
+  twitter,
+  linkedin,
+};
+export const brandImg = {
+  br1,
+  br2,
+  br3,
+  br4,
+  br5,
 };
 
-export const product = [
+export const productDetails = [
   {
     name: "DJ Headphone",
     img: p1,
     price: 300,
+    productCategory: "Earphone",
   },
   {
     name: "Bose Headphone",
     img: p2,
     price: 200,
+    productCategory: "Gadget",
   },
   {
     name: "Kose Headphone",
     img: p3,
     price: 100,
+    productCategory: "Gaming",
   },
   {
     name: "Sony Headphone",
     img: p4,
     price: 200,
+    productCategory: "Speaker",
   },
   {
     name: "DJ Headphone",
     img: p5,
     price: 350,
+    productCategory: "Laptop",
   },
   {
     name: "Beats Headphone",
     img: p7,
     price: 150,
+    productCategory: "VR",
   },
   {
     name: "Jbl Headphone",
     img: p9,
     price: 200,
+    productCategory: "VR",
   },
 ];
 
-export const category = [
+export const categoryDetails = [
   {
     name: "Earphone",
     img: earphone,

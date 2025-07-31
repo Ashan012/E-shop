@@ -5,7 +5,10 @@ import Hero from "./components/Hero/Hero";
 import Category from "./components/Category/Category";
 import SaleContainer from "./components/Sale Container/SaleContainer";
 import ProductCart from "./components/ProductCart/ProductCart";
-import { assets } from "./assets/assets";
+import { assetsImg } from "./assets/assets";
+import Practice from "./components/Practice/practice";
+import Brand from "./components/Brand/Brand";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -18,9 +21,11 @@ function App() {
         <ProductCart />
         <SaleContainer
           bg={"#2DCC6F"}
-          img={assets.smartWatch}
+          img={assetsImg.smartWatch}
           text1={"HAPPY HOURS"}
         />
+        <Brand />
+        <Footer />
       </div>
     </>
   );

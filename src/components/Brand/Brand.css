@@ -1,0 +1,19 @@
+.Brand-container {
+  width: 100%;
+  background-color: #e5e7eb;
+  margin: 50px 0;
+  padding: 20px 0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Brand-container img {
+  width: 80px;
+  object-fit: contain;
+}
+@media (max-width: 750px) {
+  .Brand-container {
+    display: none;
+  }
+}

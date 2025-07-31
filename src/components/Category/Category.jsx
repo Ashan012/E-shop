@@ -1,18 +1,26 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Category.css";
-import { assets } from "../../assets/assets";
-import { category } from "../../assets/assets";
+import { categoryDetails } from "../../assets/assets";
 import Button from "../Button/Button";
+import { StoreContext } from "../../context/storeContext";
 
 const Category = () => {
+  const { category, setCategory } = useContext(StoreContext);
+  console.log(category);
+
   return (
     <div className="Category-container">
-      {category.map((item, index) => {
+      {categoryDetails.map((item, index) => {
         return (
           <div
             key={index}
             className="category"
             style={{ backgroundColor: item.color }}
+            onClick={() =>
+              setCategory(
+                category == "All" || category !== item.name ? item.name : "All"
+              )
+            }
           >
             <div className="category-left">
               <p className="p-1">Enjoy</p>

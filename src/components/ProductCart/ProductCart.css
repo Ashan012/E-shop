@@ -1,3 +1,20 @@
+.Product-Sec {
+  width: 100%;
+}
+.Product-Sec .heading {
+  text-align: center;
+}
+
+.Product-Sec .heading h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.Product-Sec .heading p {
+  margin-top: 10px;
+  color: gray;
+  font-weight: 400;
+}
+
 .product-container {
   width: 100%;
   display: grid;
@@ -9,6 +26,7 @@
 
 .cart img {
   width: 100%;
+  object-fit: contain;
   border-radius: 10px;
 }
 .cart .heading .name {
@@ -17,4 +35,15 @@
 }
 .cart .heading .price {
   font-weight: bold;
+}
+@media (max-width: 650px) {
+  .product-container {
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+    gap: 10px;
+    row-gap: 10px;
+  }
+  .cart .heading .name,
+  .cart .heading .price {
+    font-size: 16px;
+  }
 }

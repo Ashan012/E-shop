@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import { assets } from "../../assets/assets";
+import { assetsImg } from "../../assets/assets";
 import Button from "../Button/Button";
 
 const Hero = () => {
@@ -13,7 +13,7 @@ const Hero = () => {
         <Button text={"Shop By Category"} />
       </div>
       <div className="hero-right">
-        <img src={assets.headphone} alt="" />
+        <img src={assetsImg.headphone} alt="" />
       </div>
     </div>
   );

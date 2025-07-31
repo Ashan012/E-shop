@@ -1,6 +1,6 @@
 import React from "react";
 import "./SaleContainer.css";
-import { assets } from "../../assets/assets";
+import { assetsImg } from "../../assets/assets";
 import Button from "../Button/Button";
 
 const SaleContainer = ({ text1, text2, img, bg }) => {
@@ -12,10 +12,10 @@ const SaleContainer = ({ text1, text2, img, bg }) => {
         <p>10 Jan to 8 Jan</p>
       </div>
       <div className="container-img">
-        <img src={img || assets.headphone} alt="" />
+        <img src={img || assetsImg.headphone} alt="" />
       </div>
       <div className="container-right">
-        <p> {text2}</p>
+        <b> {text2}</b>
         <h1>Winter Sale</h1>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque

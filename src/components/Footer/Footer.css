@@ -1,0 +1,37 @@
+.footer-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 50px;
+  margin: 50px 0;
+}
+.footer-container .left-container h1 {
+  font-size: 45px;
+  color: rgb(244, 44, 55);
+  font-weight: 600;
+}
+.footer-container .left-container p,
+.center-container li {
+  font-size: 20px;
+  margin: 10px 0;
+  color: rgb(75 85 99);
+}
+.left-container .links img {
+  filter: invert();
+  padding: 0 5px;
+}
+.center-container h1,
+.right-container h1 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.right-container p {
+  font-size: 22px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 750px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+}
