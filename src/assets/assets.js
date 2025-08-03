@@ -46,42 +46,49 @@ export const brandImg = {
 
 export const productDetails = [
   {
+    _id: 1,
     name: "DJ Headphone",
     img: p1,
     price: 300,
     productCategory: "Earphone",
   },
   {
+    _id: 2,
     name: "Bose Headphone",
     img: p2,
     price: 200,
     productCategory: "Gadget",
   },
   {
+    _id: 3,
     name: "Kose Headphone",
     img: p3,
     price: 100,
     productCategory: "Gaming",
   },
   {
+    _id: 4,
     name: "Sony Headphone",
     img: p4,
     price: 200,
     productCategory: "Speaker",
   },
   {
+    _id: 5,
     name: "DJ Headphone",
     img: p5,
     price: 350,
     productCategory: "Laptop",
   },
   {
+    _id: 6,
     name: "Beats Headphone",
     img: p7,
     price: 150,
     productCategory: "VR",
   },
   {
+    _id: 7,
     name: "Jbl Headphone",
     img: p9,
     price: 200,

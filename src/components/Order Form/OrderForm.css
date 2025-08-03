@@ -1,0 +1,19 @@
+.OrderForm {
+  flex: 1;
+}
+.OrderForm .title h3 {
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.inputBox {
+  display: flex;
+  gap: 10px;
+}
+.OrderForm input {
+  width: 100%;
+  border: 1px solid #c5c5c5;
+  padding: 5px;
+  margin: 5px 0;
+  outline: none;
+}

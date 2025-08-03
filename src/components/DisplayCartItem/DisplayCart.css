@@ -1,0 +1,20 @@
+.cart-item {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+  margin: 10px 0;
+  font-size: max(1vw, 12px);
+  color: gray;
+  align-items: center;
+}
+
+.cart-item-item {
+  color: black;
+  padding: 10px 0;
+  margin: 0;
+}
+.cart-item img {
+  width: 50px;
+}
+.cart-item .cross {
+  cursor: pointer;
+}

@@ -5,7 +5,7 @@
   border-radius: 25px;
   display: flex;
   align-items: center;
-  position: relative;
+  /* position: relative; */
   padding-left: 100px;
 }
 .hero-left {

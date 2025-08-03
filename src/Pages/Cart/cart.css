@@ -1,0 +1,25 @@
+.cart {
+  width: 100%;
+  margin-top: 100px;
+}
+.cartBottom {
+  margin-top: 50px;
+  display: flex;
+  gap: 150px;
+}
+.cart hr {
+  color: rgb(226, 226, 226);
+  height: 1px;
+  opacity: 0.5;
+}
+@media (max-width: 1110px) {
+  .cartBottom {
+    gap: 50px;
+  }
+}
+
+@media (max-width: 970px) {
+  .cartBottom {
+    flex-direction: column-reverse;
+  }
+}

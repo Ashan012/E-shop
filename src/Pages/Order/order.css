@@ -1,0 +1,14 @@
+.OrderPage {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  margin: 100px 0;
+}
+@media (max-width: 750px) {
+  .OrderPage {
+    flex-direction: column;
+    margin: 50px 0;
+    gap: 30px;
+  }
+}

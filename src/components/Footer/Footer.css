@@ -8,16 +8,19 @@
   font-size: 45px;
   color: rgb(244, 44, 55);
   font-weight: 600;
+  cursor: pointer;
 }
 .footer-container .left-container p,
 .center-container li {
   font-size: 20px;
   margin: 10px 0;
   color: rgb(75 85 99);
+  cursor: pointer;
 }
 .left-container .links img {
   filter: invert();
   padding: 0 5px;
+  cursor: pointer;
 }
 .center-container h1,
 .right-container h1 {
@@ -28,6 +31,7 @@
 .right-container p {
   font-size: 22px;
   padding-bottom: 20px;
+  cursor: pointer;
 }
 
 @media (max-width: 750px) {

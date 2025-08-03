@@ -4,18 +4,21 @@ import { productDetails } from "../../assets/assets";
 import { StoreContext } from "../../context/storeContext";
 
 const ProductCart = () => {
-  const { category } = useContext(StoreContext);
+  const { category, addTocart, getTotalAmount } = useContext(StoreContext);
   return (
     <div className="Product-Sec" id="Product-Sec">
       <div className="heading">
         <h1>Our Products</h1>
-        <p>Explore Our Products</p>
+        <p>Explore Our Products {getTotalAmount()}</p>
       </div>
       <div className="product-container">
         {productDetails.map((item, index) => {
           if (category === "All" || category === item.productCategory) {
             return (
-              <div key={index} className="cart">
+              <div key={index} className="product-cart">
+                <button hidden onClick={() => addTocart(item._id)}>
+                  Add To Cart
+                </button>
                 <img src={item.img} alt="" />
                 <div className="heading">
                   <h2 className="name">{item.name}</h2>

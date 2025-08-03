@@ -6,7 +6,6 @@ import { StoreContext } from "../../context/storeContext";
 
 const Category = () => {
   const { category, setCategory } = useContext(StoreContext);
-  console.log(category);
 
   return (
     <div className="Category-container">

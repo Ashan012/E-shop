@@ -1,0 +1,20 @@
+.promo-code {
+  flex: 1;
+}
+.promo-code input {
+  width: 70%;
+  border: none;
+  outline: none;
+  background-color: #e2e2e2;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.promo-code button {
+  width: 30%;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}

@@ -1,0 +1,17 @@
+.CartTotal {
+  flex: 1;
+}
+.subTotal,
+.deliveryFees,
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #555;
+  font-size: 20px;
+  margin: 20px 0;
+}
+.total {
+  color: black;
+  font-weight: 600;
+}
