@@ -24,6 +24,7 @@ const Navbar = () => {
       <div className="features">
         <img src={assetsImg.search} alt="" />
         <Link to="/cart">
+          <div className="dot"></div>
           <img src={assetsImg.basket} alt="" />
         </Link>
         <Button text={"SignUp"} />

@@ -12,10 +12,17 @@ import p2 from "../assets/product/p-2.jpg";
 import p3 from "../assets/product/p-3.jpg";
 import p4 from "../assets/product/p-4.jpg";
 import p5 from "../assets/product/p-5.jpg";
-// import p6 from "../assets/product/p-6.jpg";
+import p6 from "../assets/product/p-6.jpg";
 import p7 from "../assets/product/p-7.jpg";
-// import p8 from "../assets/product/p-8.jpg";
+import p8 from "../assets/product/p-8.jpg";
 import p9 from "../assets/product/p-9.jpg";
+import p10 from "../assets/product/p-10.jpg";
+import p11 from "../assets/product/p-11.jpg";
+import p12 from "../assets/product/p-12.jpg";
+import p13 from "../assets/product/p-13.jpg";
+import p14 from "../assets/product/p-14.jpg";
+import p15 from "../assets/product/p-15.jpg";
+import p16 from "../assets/product/p-16.jpg";
 import smartWatch from "../assets/category/smartwatch2-removebg-preview.png";
 import br1 from "../assets/brand/br-1.png";
 import br2 from "../assets/brand/br-2.png";
@@ -54,7 +61,7 @@ export const productDetails = [
   },
   {
     _id: 2,
-    name: "Bose Headphone",
+    name: "Smart Watch",
     img: p2,
     price: 200,
     productCategory: "Gadget",
@@ -64,34 +71,97 @@ export const productDetails = [
     name: "Kose Headphone",
     img: p3,
     price: 100,
-    productCategory: "Gaming",
+    productCategory: "Earphone",
   },
   {
     _id: 4,
     name: "Sony Headphone",
     img: p4,
     price: 200,
-    productCategory: "Speaker",
+    productCategory: "EarPhone",
   },
   {
     _id: 5,
     name: "DJ Headphone",
     img: p5,
     price: 350,
-    productCategory: "Laptop",
+    productCategory: "Earphone",
   },
   {
     _id: 6,
     name: "Beats Headphone",
     img: p7,
     price: 150,
-    productCategory: "VR",
+    productCategory: "Earphone",
   },
   {
     _id: 7,
     name: "Jbl Headphone",
     img: p9,
     price: 200,
+    productCategory: "Earphone",
+  },
+  {
+    _id: 8,
+    name: "Mac Book",
+    img: p6,
+    price: 2000,
+    productCategory: "Laptop",
+  },
+  {
+    _id: 9,
+    name: "Mac Book",
+    img: p8,
+    price: 3000,
+    productCategory: "Laptop",
+  },
+  {
+    _id: 10,
+    name: "Halouy Watch",
+    img: p10,
+    price: 400,
+    productCategory: "Gadget",
+  },
+  {
+    _id: 11,
+    name: "Portable Speaker",
+    img: p11,
+    price: 100,
+    productCategory: "Speaker",
+  },
+  {
+    _id: 12,
+    name: "Sony Speaker",
+    img: p12,
+    price: 140,
+    productCategory: "Speaker",
+  },
+  {
+    _id: 13,
+    name: "Play Station",
+    img: p13,
+    price: 1500,
+    productCategory: "Gaming",
+  },
+  {
+    _id: 14,
+    name: "Xbox",
+    img: p14,
+    price: 300,
+    productCategory: "Gaming",
+  },
+  {
+    _id: 15,
+    name: "VR 2.8",
+    img: p15,
+    price: 1000,
+    productCategory: "VR",
+  },
+  {
+    _id: 16,
+    name: "Apple VR ",
+    img: p16,
+    price: 350,
     productCategory: "VR",
   },
 ];

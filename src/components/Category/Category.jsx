@@ -8,18 +8,20 @@ const Category = () => {
   const { category, setCategory } = useContext(StoreContext);
 
   return (
-    <div className="Category-container">
+    <div className="Category-container" id="category">
       {categoryDetails.map((item, index) => {
         return (
           <div
             key={index}
             className="category"
             style={{ backgroundColor: item.color }}
-            onClick={() =>
+            onClick={() => {
               setCategory(
                 category == "All" || category !== item.name ? item.name : "All"
-              )
-            }
+              );
+              const section = document.getElementById("productSec");
+              section.scrollIntoView({ behavior: "smooth" });
+            }}
           >
             <div className="category-left">
               <p className="p-1">Enjoy</p>

@@ -9,7 +9,11 @@ const StoreContextProvider = (props) => {
   const [cart, setCart] = useState({});
 
   const addTocart = (item_id) => {
-    setCart({ ...cart, [item_id]: 1 });
+    if (cart[item_id] == null) {
+      setCart({ ...cart, [item_id]: 1 });
+    } else {
+      setCart({ ...cart, [item_id]: (cart[item_id] += 1) });
+    }
     console.log(cart);
   };
   const getTotalAmount = () => {
@@ -18,7 +22,7 @@ const StoreContextProvider = (props) => {
       if (cart[item] > 0) {
         let itemInfo = productDetails.find((product) => product._id == item);
 
-        totalAmount += itemInfo.price;
+        totalAmount += itemInfo.price * cart[item];
       }
     }
     return totalAmount;

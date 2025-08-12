@@ -28,8 +28,8 @@ const Footer = () => {
       </div>
       <div className="right-container">
         <h1>Get in Touch</h1>
-        <p>eshop@gmail.com</p>
-        <p>+92 300319089</p>
+        <p>eshop@eshop.com</p>
+        <p>+92 111111111</p>
       </div>
     </div>
   );

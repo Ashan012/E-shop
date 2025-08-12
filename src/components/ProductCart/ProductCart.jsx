@@ -4,12 +4,12 @@ import { productDetails } from "../../assets/assets";
 import { StoreContext } from "../../context/storeContext";
 
 const ProductCart = () => {
-  const { category, addTocart, getTotalAmount } = useContext(StoreContext);
+  const { category, addTocart } = useContext(StoreContext);
   return (
-    <div className="Product-Sec" id="Product-Sec">
+    <div className="Product-Sec" id="productSec">
       <div className="heading">
         <h1>Our Products</h1>
-        <p>Explore Our Products {getTotalAmount()}</p>
+        <p>Explore Our Products </p>
       </div>
       <div className="product-container">
         {productDetails.map((item, index) => {
